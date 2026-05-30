@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: CursedTimer;
+  src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+  background-color: #080001;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #cccccc;
+  margin: 5px;
+}
+
+.board_container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #1b244a;
+  color: #fff;
+}
+
+.score_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score_wrapper h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.score_wrapper h4 {
+  font-family: CursedTimer, sans-serif;
+  line-height: 1;
+  font-size: 90px;
+  font-weight: 400;
+  padding: 14px 40px;
+  text-align: center;
+  margin: 10px 0;
+  background: #080001;
+  color: #f94f6d;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.btns {
+  display: flex;
+}
+
+.btns button {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: CursedTimer, sans-serif;
+  font-size: 1.2rem;
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btns button:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+  border-color: #9aabd8;
+  transform: scale(1.05);
+}
+
+#leadingTeam {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+#reset_btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: crimson;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.8;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#reset_btn:hover {
+  background: rgb(217, 3, 46);
+  transform: scale(1.1);
+}
+
+@media (max-width: 580px) {
+  h1 {
+    font-size: 28px;
+    margin: 15px;
+  }
+
+  .board_container {
+    margin: 10px auto;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 24px;
+    margin: 10px;
+  }
+}
