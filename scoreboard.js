@@ -19,13 +19,13 @@ function updateGuest(points) {
 function updateLeader() {
   if (homeCount > guestCount) {
     leaderText.textContent = "Home Team is leading the scoreline";
-    leaderText.style.color = "#9aabd8";
+    leaderText.style.color = "#640202f3";
   } else if (homeCount === guestCount) {
     leaderText.textContent = "Both Teams are on fire";
-    leaderText.style.color = "#fcd34d";
+    leaderText.style.color = "#031461";
   } else {
     leaderText.textContent = "Guest Team is leading the scoreline";
-    leaderText.style.color = "#ff6b6b";
+    leaderText.style.color = "crimson";
   }
 }
 

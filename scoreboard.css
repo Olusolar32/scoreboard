@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #080001;
+  background-color: #efefef;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
@@ -20,14 +20,14 @@ body {
 
 h1 {
   text-align: center;
-  color: white;
+  color: #1b244a;
   font-size: 40px;
   margin-bottom: 5px;
 }
 
 p {
   text-align: center;
-  color: #cccccc;
+  color: #000;
   margin: 5px;
 }
 
@@ -64,7 +64,7 @@ p {
   text-align: center;
   margin: 10px 0;
   background: #080001;
-  color: #f94f6d;
+  color: #da0b31;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
@@ -100,7 +100,7 @@ p {
   font-size: 18px;
   margin: 10px;
   text-align: center;
-  color: #f94f6d;
+  color: #080001;
 }
 
 #reset_btn {
@@ -108,7 +108,7 @@ p {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background: crimson;
+  background: #dc143c;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
